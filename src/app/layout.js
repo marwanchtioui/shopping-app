@@ -1,5 +1,5 @@
 import { Inter } from "next/font/google";
-import "./globals.css";
+import './styles/global.css';
 import "./build.css"; 
 import HeaderTop from "@/Components/HeaderTop";
 import HeaderMain from "@/Components/HeaderMain";
