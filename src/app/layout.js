@@ -4,11 +4,11 @@ import HeaderTop from "@/Components/HeaderTop";
 import HeaderMain from "@/Components/HeaderMain";
 import NavBar from "@/Components/NavBar";
 import MobNavbar from "@/Components/MobNavbar";
-
+import Footer from "@/Components/Footer";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Footer from "@/Components/Footer";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
