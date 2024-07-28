@@ -1,8 +1,6 @@
 import Image from 'next/image';
 import React from 'react'
-import getConfig from 'next/config';
 
-const { publicRuntimeConfig } = getConfig();
 
 const Slide = ({ img, title, mainTitle, price }) => {
   return (
@@ -17,7 +15,7 @@ const Slide = ({ img, title, mainTitle, price }) => {
       </h3>
       <div className='bg-accent text-white text-[14px] md:text-[16px] p-2 px-4 rounded-lg inline-block cursor-pointer hover:bg-blackish'>Shop Now</div>
     </div>
-    <Image className='w-[100%] h-[300px] md:h-auto rounded-xl object-cover object-right md:object-left-bottom' src={`${publicRuntimeConfig.basePath}${img}`} alt="banner" width={2000} height={2000} />
+    <Image className='w-[100%] h-[300px] md:h-auto rounded-xl object-cover object-right md:object-left-bottom' src={img} alt="banner" width={2000} height={2000} />
   </div>
 );
 };
