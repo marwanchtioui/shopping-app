@@ -8,18 +8,18 @@ const HeaderTop = () => {
     <div className="container py-4">
         <div className="flex justify-between items-center">
             <div className="hidden lg:flex grap-1">
-                <div className="header_top__icon_wrapper">
-                    <BsFacebook/>
-                </div>
-                <div className="header_top__icon_wrapper">
-                    <BsTwitter/>
-                </div>
-                <div className="header_top__icon_wrapper">
-                    <BsInstagram/>
-                </div>
-                <div className="header_top__icon_wrapper">
-                    <BsLinkedin/>
-                </div>
+            <div className="bg-gray-200 rounded-md p-[6px] text-[14px] cursor-pointer hover:bg-accent hover:text-white">
+              <BsFacebook />
+            </div>
+            <div className="bg-gray-200 rounded-md p-[6px] text-[14px] cursor-pointer hover:bg-accent hover:text-white">
+              <BsTwitter />
+            </div>
+            <div className="bg-gray-200 rounded-md p-[6px] text-[14px] cursor-pointer hover:bg-accent hover:text-white">
+              <BsInstagram />
+            </div>
+            <div className="bg-gray-200 rounded-md p-[6px] text-[14px] cursor-pointer hover:bg-accent hover:text-white">
+              <BsLinkedin />
+            </div>
             </div>
             <div className="text-gray-500 text-[12px]">
                 <strong>FREE SHIPPING </strong>
