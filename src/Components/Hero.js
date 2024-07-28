@@ -5,7 +5,6 @@ import React from 'react';
 import Slider from "react-slick";
 import Slide from './Slide';
 
-
 const Hero = () => {
 
     let settings = {
@@ -20,21 +19,21 @@ const Hero = () => {
     const slideData = [
         {
             id: 0,
-            img:"/shopping-app/banner-1.jpg",
+            img:"/banner-1.jpg",
             title: "Trending Item",
             mainTitle: "WOMEN'S LATEST FASHION SALE",
             price:"$20",
         },
         {
             id: 1,
-            img:"/shopping-app/banner-2.jpg",
+            img:"/banner-2.jpg",
             title: "Trending Accessories",
             mainTitle: "MODERN SUNGLASSES",
             price:"$15",
         },
         {
             id: 3,
-            img:"/shopping-app/banner-3.jpg",
+            img:"/banner-3.jpg",
             title: "Sale Offer",
             mainTitle: "NEW FASHION SUMMER SALE",
             price:"$30",
