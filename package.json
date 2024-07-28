@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && npx tailwindcss -o build.css --minify",
+    "prebuild": "npx tailwindcss -o ./src/app/build.css --minify",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
